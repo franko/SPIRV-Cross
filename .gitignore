@@ -3,7 +3,6 @@
 
 *.o
 *.d
-*.txt
 /test
 /spirv-cross
 /obj
