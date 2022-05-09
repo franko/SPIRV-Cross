@@ -16,6 +16,13 @@ install_headers(
     'spirv_parser.hpp',
     'spirv_cross_parsed_ir.hpp',
     'spirv_cfg.hpp',
+    'spirv_cross_c.h',
+    'spirv_glsl.hpp',
+    'spirv_cpp.hpp',
+    'spirv_msl.hpp',
+    'spirv_hlsl.hpp',
+    'spirv_reflect.hpp',
+    'spirv_cross_util.hpp',
 )
 
 spirv_cross_core_sources = [
