@@ -1,1 +1,2 @@
+option('exceptions-assert', type : 'boolean', value : false, description: 'Instead of throwing exceptions assert')
 option('cli', type : 'boolean', value : true, description: 'Build the CLI binary')
