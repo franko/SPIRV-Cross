@@ -36,7 +36,10 @@ if get_option('buildtype') == 'release'
     spirv_cross_cppargs += '-DNDEBUG'
 endif
 
-libspirv_cross_core = library('spirv-cross-core', spirv_cross_core_sources, cpp_args : spirv_cross_cppargs)
+libspirv_cross_core = library('spirv-cross-core', spirv_cross_core_sources,
+    cpp_args : spirv_cross_cppargs,
+    install : true
+)
 
 libspirv_cross_glsl = library('spirv-cross-glsl', 'spirv_glsl.cpp',
     link_with : libspirv_cross_core,
